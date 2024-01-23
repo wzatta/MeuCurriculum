@@ -1,0 +1,36 @@
+.cabecalho__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    padding: 0 25px;
+    color: black;
+    position: fixed;
+    top: 0%;
+}
+
+.cabecalho__titulo {
+    text-align: start;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cabecalho__nome {
+    text-align: center;
+    padding-left: 10%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media(min-width:834px) {
+    .cabecalho__container {
+        width: 70%;
+    }
+
+}
+    
+
+
