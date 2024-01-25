@@ -55,7 +55,7 @@
     .menu__container {
         left: 0%;
         top: 80px;
-        width: 200px;
+        width: 110px;
         height: auto;
         overflow: scroll;
     }
@@ -75,4 +75,10 @@
         width: 100%;
     }
 
+ 
+}
+@media ( min-width: 1200px) {
+    .menu__container {
+        width: 200px;
+    }
 }

@@ -25,12 +25,11 @@
     font-weight: bold;
 }
 
-@media(min-width:834px) {
+/* @media(min-width:834px) {
     .cabecalho__container {
-        width: 70%;
     }
 
-}
+} */
     
 
 
