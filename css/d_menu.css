@@ -5,7 +5,6 @@
     bottom: 0;
     height: 90px;
     width: 100%; 
-    overflow: scroll;   
 }
 
 .menu__lista {
@@ -57,7 +56,6 @@
         top: 80px;
         width: 110px;
         height: auto;
-        overflow: scroll;
     }
 
     .menu__lista {

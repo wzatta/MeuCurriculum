@@ -1,13 +1,13 @@
-.conteudo__apresentacao {
+.conteudo__Objetivo {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
   color: black;
-  gap: 10px;
+  gap: 30px;
 }
 
-.apresentacao__conteudo {
+.apresentacao__objetivo {
   padding-top: 90px;
   height: 100%;
   display: flex;
@@ -17,36 +17,33 @@
   gap: 20px;
 }
 
-.apresentacao__conteudo__titulo {
+.apresentacao__objetivo__titulo {
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
 }
 
-.aparesentacao__conteudo__texto{
+.apresentacao__objetivo__texto {
   width: 80%;
   text-align: justify;
   justify-content: center;
   align-items: center;
 }
 
-.container__momentoslivre {
+
+.container__gravura__objetivo {
   display: flex;
   flex-direction: column;
   height: 100%;
-  gap: 10px;
-
-  align-items: center;
+  gap: 20px;
 }
 
 .foto {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   overflow: hidden;
-  width: 300px;
-  height: 300px;
 }
 
 .circulomenor {
@@ -56,24 +53,9 @@
   border-radius: 50%;
 }
 
-.circulomenorTamanho {
-  width:  60px;
-  height: 60px;
-}
-
 .circulomenorTamanho1 {
-  width: 120px;
-  height: 120px;
-}
-
-.circulomenorTamanho2 {
-  width: 30px;
-  height: 30px;
-}
-
-.circulomenorCordefundo1 {
-  background-color: white;
-  overflow: hidden;
+  width: 200px;
+  height: 200px;
 }
 
 .circulomenorCordefundo2 {
@@ -81,27 +63,14 @@
   overflow: hidden;
 }
 
-.foto__01 {
-  width: 50px;
-  height: 50px;
-}
-
 .foto__02 {
-  width: 110px;
-  height: 110px;
+  width: 150px;
+  height: 150px;
 }
 
 .cirulomenor__texto1 {
   font-weight: bold;
   display: none;
-}
-
-.foto__01:hover {
-  display: none;
-}
-
-.foto__01:hover+.cirulomenor__texto1 {
-  display: block;
 }
 
 .foto__02:hover {
@@ -113,22 +82,21 @@
   color: white;
 }
 
-.rodape {
-  width: 100%;
-}
+
 
 /*================================================================
     ================================================================*/
 
 @media (min-width:834px) {
-
-  .conteudo__apresentacao {
+ 
+  .conteudo__Objetivo {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
+    
   }
 
-  .apresentacao__conteudo {
+  .apresentacao__objetivo {
     padding-top: 0px;
     display: flex;
     flex-direction: column;
@@ -138,15 +106,18 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
-  }
+ }
 
-  .apresentacao__objetivo__texto {
+ .apresentacao__objetivo__texto {
 
-  }
+ }
 
-  .container__momentoslivre {
+  .container__gravura__objetivo {
+    display: flex;
+    flex-direction: column;
     width: 50%;
     height: 100%;
+    gap: 20px;
     align-items: center;
     justify-content: center;
   }
@@ -154,35 +125,19 @@
 /*==========================================================*/
 
 .foto {
-  width: 390px;
-  height: 390px;
+  display: flex;
 }
-.foto__01 {
-  width: 70px;
-  height: 70px;
-}
+
 
 .foto__02 {
-  width: 150px;
-  height: 150px;
-}
-
-
-.circulomenorTamanho {
-  width:  78px;
-  height: 78px;
+  width: 220px;
+  height: 220px;
 }
 
 .circulomenorTamanho1 {
-  width: 156px;
-  height: 156px;
+  width: 300px;
+  height: 300px;
 }
-
-.circulomenorTamanho2 {
-  width: 39px;
-  height: 39px;
-}
-
 
 /*==========================================================*/
   .rodape {
@@ -197,19 +152,13 @@
 }
 
 @media (min-width:1200px) {
-  .conteudo__apresentacao {
+  .conteudo__objetivo {
+    width: 1200px;
     
   }
 
-  .apresentacao__conteudo {
+  .apresentacao__objetivo {
     padding-left: 200px;
   }
 
-  .apresentacao__conteudo__titulo {
-   
-  }
-
-  .aparesentacao__conteudo__texto{
-    width: 80%;
-  }
 }
