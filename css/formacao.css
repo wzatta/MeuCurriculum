@@ -151,7 +151,6 @@
     padding-left: 110px;
     overflow:scroll;
     height: 100vh;
-    
   }
 
   .container__left {
@@ -180,6 +179,8 @@
     flex-direction: column;
     padding-left: 5rem;
     gap: 10px;
+    border-right: none;
+    border-bottom: none;
   }
 
   .final__de__pagina {
@@ -205,7 +206,7 @@
   .container__right__sub {
     display: flex;
     padding-top: 10px;
-    width: 100%;
+    width: 90%%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -217,6 +218,9 @@
     padding-left: 3rem;
     font-size: 1rem;
     font-weight: bold;
+  }
+  .container__right__sub__texto {
+    border: none;
   }
   
 

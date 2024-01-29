@@ -3,8 +3,9 @@
     font-size: 14px;
     position: fixed;
     bottom: 0;
-    height: 90px;
+    height: 100px;
     width: 100%; 
+    overflow: scroll;
 }
 
 .menu__lista {
@@ -80,3 +81,4 @@
         width: 200px;
     }
 }
+

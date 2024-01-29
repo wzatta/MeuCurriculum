@@ -1,4 +1,4 @@
-.conteudo__Objetivo {
+.conteudo__principal {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -7,11 +7,11 @@
   gap: 30px;
 }
 
-.apresentacao__objetivo {
+.sider__left {
   padding-top: 90px;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -31,10 +31,11 @@
 }
 
 
-.container__gravura__objetivo {
+.sider__right {
   display: flex;
   flex-direction: column;
   height: 100%;
+  align-items: center;
   gap: 20px;
 }
 
@@ -84,42 +85,30 @@
 
 
 
-/*================================================================
-    ================================================================*/
+/*================================================================*/
 
 @media (min-width:834px) {
- 
-  .conteudo__Objetivo {
+  .conteudo__principal {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    
+    width: 100%;
   }
 
-  .apresentacao__objetivo {
+  .sider__left {
     padding-top: 0px;
     display: flex;
     flex-direction: column;
     width: 50%;
     height: 100%;
-    padding-left: 110px;
+    padding-left: 15%;
     gap: 20px;
     align-items: center;
     justify-content: center;
  }
 
- .apresentacao__objetivo__texto {
-
- }
-
-  .container__gravura__objetivo {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-    gap: 20px;
-    align-items: center;
+  .sider__right {
     justify-content: center;
+    padding-right: 5%;
   }
 
 /*==========================================================*/
@@ -142,6 +131,7 @@
 /*==========================================================*/
   .rodape {
     width: 100%;
+    padding-left: 15%;
     position: fixed;
     bottom: 0%;
     height: 5vh;
@@ -152,13 +142,19 @@
 }
 
 @media (min-width:1200px) {
-  .conteudo__objetivo {
-    width: 1200px;
+ 
+  .sider__left {
+    padding-left: 300px;
+  }
+
+  .apresentacao__objetivo__texto {
+    width: 80%;
     
   }
 
-  .apresentacao__objetivo {
-    padding-left: 200px;
+
+  .sider__right {
+    padding-right: 150px;
   }
 
 }
