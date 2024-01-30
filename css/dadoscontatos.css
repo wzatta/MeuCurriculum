@@ -23,7 +23,11 @@
     width: 100%;
     flex-direction: column;
     gap: 20px;
+}
 
+.dados__de__contato__basico h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .dados__de__contato__redesociais {
@@ -153,12 +157,12 @@
       
            
       .foto__02 {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
       }
 
       .dados__de__contato {
-        gap 50px;
+        gap :50px;
       }
 
       .dados__de__contato__basico {
