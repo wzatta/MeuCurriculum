@@ -1,10 +1,10 @@
 .conteudo__principal {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     color: black;
     
 }
@@ -12,10 +12,9 @@
 .dados__de__contato {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     padding-top: 90px;
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     gap: 20px;
 }
 
@@ -23,7 +22,7 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 
 }
 
@@ -33,6 +32,28 @@
     gap: 20px;
 
 }
+
+.zap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.zap::after {
+    content: url(/img/whatsapp32.png);
+}
+
+.gmail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.gmail::after {
+    content: url(/img/gmail32.png);
+}
+
+
 
 .dados__de__contato__redesociais__subtitulo {
     display: flex;
@@ -57,13 +78,14 @@
     font-weight: 600;
     text-align: center;
     text-decoration: none;
+    align-items: center;
 }
 
 .fotodeperfil {
     display: flex;
-    width: 100%;
-    height: 50vh;
     flex-direction: column;
+    width: 100%;
+    height: 40vh;
     align-items: center;
 }
 
@@ -93,9 +115,29 @@
 @media (min-width:834px) {
 
     .conteudo__principal {
+        flex-wrap: nowrap;
         flex-direction: row;
         padding-left: 110px;
+        align-items: center;
         justify-content: space-evenly;
+    }
+
+    .dados__de__contato {
+        padding-top: 0;
+        height: 100vhvh;
+        gap: 50px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .dados__de__contato__basico {
+        gap: 30px;
+    }
+
+    .fotodeperfil {
+        height: 100vh;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
 
@@ -103,4 +145,27 @@
     .conteudo__principal {
         padding-left: 200px;
     }
+          
+      .circulomenorTamanho1 {
+        width: 300px;
+        height: 300px;
+      }
+      
+           
+      .foto__02 {
+        width: 200px;
+        height: 200px;
+      }
+
+      .dados__de__contato {
+        gap 50px;
+      }
+
+      .dados__de__contato__basico {
+        gap: 30px;
+      }
+
+
+
+
 }
