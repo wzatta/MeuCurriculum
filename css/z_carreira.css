@@ -1,61 +1,117 @@
 .conteudo__principal {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
+    padding-top: 80px;
     flex-direction: column;
     color: black;
     font-size: 1rem;
-    
+    gap: 20px;
 }
 
-.sider__left {
+.conteudo__principal__titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 1rem;
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container__carreira {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
+    gap: 20px;
+}
+
+.carreira__empresa {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+}
+
+.recuo__left__2  {
+    padding-left: 2rem;
+    font-weight: bold;
+}
+
+.recuo__left__3 {
+    padding-left: 3rem;
+}
+
+.detalhes {
+    padding-left: 3rem;
+    padding-top: 10px;
     width: 100%;
-    background-color: red;
-    align-items: center;
 }
 
-.sider__right {
+.detalhes__titulo {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.detalhes__empresastrabalhadas {
     width: 100%;
-    background-color: blue;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-bottom: 5rem;
+    gap: 20px;
 }
 
-@media (min-width:834px){
+.detalhes__empresa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px dotted black;
+}
+
+.detalhes__empresa__contrato {
+    font-weight: bold;
+}
+
+
+@media (min-width:834px) {
 
     .conteudo__principal {
-        width: 80%;
-        flex-direction: row;
-        top: 80px;
-        padding-left: 110px;
         width: 100%;
+        padding-left: 110px;
     }
 
-    .sider__left {
+    .conteudo__principal__titulo {
         display: flex;
-        padding-top: 90px;
-        width: 50%;
+        flex-direction: column;
     }
 
-    .sider__right {
-        display: flex;
-        width: 50%;
+    .detalhes {
     }
+    
+
+    .detalhes__empresastrabalhadas {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    .detalhes__empresa {
+        width: 40%;
+        flex-wrap: wrap;
+    }
+
 
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .conteudo__principal {
         padding-left: 200px;
     }
-    
-    .sider__left {
-        background-color: brown;
-        width: 50%;
-        display: flex;
+
+    .detalhes__empresa {
+        width: 31%;
     }
 
-    .sider__right {
-        display: flex;
-        width: 50%;
-    }
 }
