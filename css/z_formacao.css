@@ -1,0 +1,250 @@
+.conteudo__principal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  gap: 20px;
+  color: black;
+
+  align-items: center;
+  overflow: scroll;
+}
+
+.universitario {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100vh;
+  gap: 20px;
+}
+
+.universitario__titulo {
+  text-align: start;
+  padding-left: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.universitario__sub {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.universitario__sub__titulo {
+  text-align: start;
+  padding-left: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.universitario__sub__curso {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.universitario__sub__texto {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 3rem;
+  gap: 10px;
+  border-bottom: 1px dotted black;
+}
+
+.universitario__sub__texto h2 {
+  font-weight: bold;
+}
+
+.idioma__sub {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  height: 100vh;
+}
+
+.idioma__sub__titulo {
+  text-align: start;
+  padding-left: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.idioma__sub__curso {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.idioma__sub__texto {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  align-items: start;
+  gap: 10px;
+  border-bottom: 1px dotted black;
+}
+
+/*========================================*/
+
+.curso__sub {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+}
+
+.curso__sub__titulo {
+  text-align: start;
+  padding-left: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.curso__sub__curso {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.curso__sub__texto {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  align-items: start;
+  gap: 10px;
+  border-bottom: 1px dotted rgb(5, 4, 4);
+}
+
+.curso {
+  font-weight: bold;
+}
+
+
+
+.naoexibir {
+  display: none;
+}
+
+@media (min-width:834px) {
+
+  .conteudo__principal {
+    display: flex;
+    width: 100%;
+    padding-left: 110px;
+  }
+
+  .universitario {
+    padding-top: 80px;
+    height: auto;
+  }
+
+  .universitario__titulo {
+    padding-left: 0px;
+  }
+
+  .universitario__sub {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .universitario__sub__titulo {
+    padding-left: 0;
+  }
+
+  .universitario__sub__curso {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: start;
+    width: 100%;
+    
+  }
+
+  .universitario__sub__texto {
+    display: flex;
+    width: 40%;
+    padding-left: 0px;
+    flex-direction: column;
+    gap: 10px;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  .idioma__sub__titulo {
+    padding-left: 0px;
+  }
+
+  .idioma__sub__curso {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: start;
+    width: 100%;
+  }
+  
+  .idioma__sub__texto {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    padding-left: 0;
+    gap: 10px;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  /*=====================================*/
+  .curso__sub {
+    height: 100vh
+  }
+
+  .curso__sub__titulo {
+    padding-left: 0px;
+  }
+
+  .curso__sub__curso {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 10rem;
+  }
+  
+  .curso__sub__texto {
+    display: flex;
+    width: 50%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding-left: 0;
+    gap: 10px;
+    border-right: none;
+    border-bottom: none;
+  }
+
+ 
+
+
+ }
+
+@media (min-width:1200px) {
+
+  .conteudo__principal {
+    padding-left: 200px;
+    overflow:scroll;
+  }
+
+  .curso__sub__texto {
+    width: 30%;
+  }
+
+
+}

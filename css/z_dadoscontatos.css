@@ -9,6 +9,10 @@
     
 }
 
+.cabecalho__dados {
+    display: none;
+}
+
 .dados__de__contato {
     display: flex;
     flex-direction: column;
@@ -43,7 +47,7 @@
     align-items: center;
     justify-content: center;
 }
-.zap::after {
+.zap::before {
     content: url(/img/whatsapp32.png);
 }
 
@@ -53,7 +57,7 @@
     align-items: center;
     justify-content: center;
 }
-.gmail::after {
+.gmail::before {
     content: url(/img/gmail32.png);
 }
 

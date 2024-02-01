@@ -18,18 +18,50 @@
     font-weight: bold;
 }
 
+.cabecalho__dados {
+    display: flex;
+    gap: 20px;
+    padding-left: 5%;
+    align-items: center;
+}
 .cabecalho__nome {
-    text-align: center;
-    padding-left: 10%;
+    text-align: start;
     font-size: 1rem;
     font-weight: bold;
 }
 
-/* @media(min-width:834px) {
-    .cabecalho__container {
+.zap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.zap::before {
+    content: url(/img/whatsapp32.png);
+}
+.gmail {
+    display: none;
+}
+
+
+
+ @media(min-width:834px) {
+    .cabecalho__dados {
+        padding-left: 110px;
+    }
+    .gmail {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .gmail::before {
+        content: url(/img/gmail32.png);
+    }
+}
+    @media(min-width:1200px) {
+    .cabecalho__dados {
+        padding-left: 200px;
     }
 
-} */
-    
-
-
+} 

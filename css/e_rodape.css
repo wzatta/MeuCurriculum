@@ -1,0 +1,17 @@
+.rodape {
+  display: none;
+  width: 100%;
+}
+
+@media (min-width:834px) {
+  .rodape {
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    height: 5vh;
+    background-color: var(--azul-escuro);
+  }
+}
+
+@media (min-width:1200px) {}

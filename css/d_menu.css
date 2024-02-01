@@ -43,6 +43,10 @@
 
 .icone__formacao::before {
     content: url(../img/graduacao32.png);
+
+}
+.icone__curso::before {
+    content: url(../img/curso32.png);
 }
 
 .icone__carreira::before {
