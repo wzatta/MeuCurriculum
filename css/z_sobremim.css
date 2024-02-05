@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: 120vh;
   color: black;
   gap: 10px;
   overflow: scroll;
@@ -31,12 +31,12 @@
   align-items: center;
 }
 
+
 .side__right {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  padding-bottom: 5rem;
+  height: 100vh;
 }
 
 .container__momentoslivre {
@@ -79,21 +79,6 @@
   width: 120px;
   height: 120px;
 }
-
-/*.circulomenorTamanho {
-  width:  60px;
-  height: 60px;
-}
-
-.circulomenorTamanho1 {
-  width: 120px;
-  height: 120px;
-}
-
-.circulomenorTamanho2 {
-  width: 30px;
-  height: 30px;
-}*/
 
 .circulomenorCordefundo1 {
   background-color: white;
@@ -147,33 +132,42 @@
 @media (min-width:834px) {
   .conteudo__principal {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
+    height: 110vh;
   }
 
   .side__left {
-    padding-top: 0px;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 100%;
-    padding-left: 15%;
-    gap: 20px;
+    width: 60%;
+    height: 100vh;
+    padding-left: 110px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
+  }
+
+  .aparesentacao__conteudo__texto {
+    width: 90%;
+    text-align: justify;
   }
 
    .side__right {
-    padding-top: 100px;
-    padding-right: 5%;
-  }
-  .container__momentoslivre {
-    width: 50%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    padding-top: 90px;
+  }
+
+  .container__momentoslivre {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
     justify-content: center;
   }
 
+ 
 /*==========================================================*/
   .rodape {
     width: 100%;
@@ -187,21 +181,30 @@
 }
 
 @media (min-width:1200px) {
+
+  .conteudo__principal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
  
   .side__left {
-    padding-left: 300px;
+    padding-left: 190px;
+    width: 65%;
   }
 
   .apresentacao__conteudo__texto{
-    width: 80%;
+    width: 95%;
   }
 
   .side__right {
-    padding-right: 150px;
+    padding-top: 90px;
   }
+ 
 
   /*==========================================================*/
-
+/*
 .foto {
   width: 390px;
   height: 390px;
@@ -232,22 +235,7 @@
   width: 156px;
   height: 156px;
 }
-
-/*.circulomenorTamanho {
-  width:  78px;
-  height: 78px;
-}
-
-.circulomenorTamanho1 {
-  width: 156px;
-  height: 156px;
-}
-
-.circulomenorTamanho2 {
-  width: 39px;
-  height: 39px;
-}*/
-
+*/
 
 /*==========================================================*/
 
