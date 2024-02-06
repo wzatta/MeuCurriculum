@@ -124,26 +124,8 @@
   width: 100%;
 }
 
-/*
-@media (max-height: 500px) and 
-(max-width:834px){
-  .conteudo__principal {
-    height: 220vh; 
-    gap: 10px;
-    background-color: aqua;
-  }
-  .side__left {
-    height: auto;
-  }
-
-  .side__right {
-    height: auto;
-  }
-}
-*/
 @media (max-height:500px) and (orientation:landscape){
   .conteudo__principal {
-    background-color: blue;
     height: 230vh;
   }
 }
