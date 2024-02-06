@@ -2,15 +2,15 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   color: black;
-  gap: 30px;
+  gap: 10px;
+  padding-top: 90px;
 }
 
 .certificados {
-  padding-top: 90px;
   width: 100%;
-  height: 90%;
+  height: 100vh;
   justify-content: center;
   align-items: center;
 }
@@ -49,12 +49,11 @@
 
 @media (min-width:1200px) {
   .conteudo__certificados {
+    padding-left: 200px;
     width: 1200px;
   }
 
-  .certificados {
-    padding-left: 200px;
+  .imggeral {
+    width: 70%;
   }
-  
-
 }
