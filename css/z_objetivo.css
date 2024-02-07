@@ -25,13 +25,13 @@
 }
 
 .apresentacao__objetivo__texto {
-  width: 90%;
+  width: 80%;
   text-align: justify;
+  line-height: 1.15rem;
 }
 
 .apresentacao__objetivo__texto>span {
   text-decoration: underline;
-  font-weight: bold;
 }
 
 .sider__right {
@@ -85,6 +85,7 @@
 .foto__02:hover+.cirulomenor__texto1 {
   display: block;
   color: white;
+  
 }
 
 @media (min-width:834px) {

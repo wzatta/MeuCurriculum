@@ -42,6 +42,7 @@
 
 .carreira__empresa__texto {
     text-align: justify;
+    line-height: 1.15rem;
 }
 
 .detalhes {
