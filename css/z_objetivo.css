@@ -85,7 +85,10 @@
 .foto__02:hover+.cirulomenor__texto1 {
   display: block;
   color: white;
-  
+}
+
+.final__de__pagina {
+  padding-bottom: 5rem;
 }
 
 @media (min-width:834px) {
